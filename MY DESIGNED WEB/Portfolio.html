@@ -14,10 +14,11 @@
 <nav class="navbar">
     <ul class="link-group">
         <li class="link active"><a href="#">home</a></li>
-        <li class="link"><a href="#">projects</a></li>
-        <li class="link"><a href="#">about</a></li>
-        <li class="link"><a href="#">contact</a></li>
+        <li class="link"><a href="#project-section">projects</a></li>
+        <li class="link"><a href="#about-section">about</a></li>
+        <li class="link"><a href="#contact-section">contact</a></li>
         <li class="link"><a href="#">My resume</a></li>
+        <li class="link"><a href="#skill-section">Skills</a></li>
     </ul>
 </nav>
 
@@ -29,9 +30,9 @@
 </section>
 
 <!-- project section -->
-<section class="project-section">
+<section id ="project-section">
     <h1 class="project-heading">some of my projects</h1>
-    <div class="project-container">
+    <div id="project-container">
         <div class="project-card">
             <img src="img/projects.jpg" class="project-img" alt="">
             <div class="project-content">
@@ -50,20 +51,31 @@
 </section>
 
 <!-- about section -->
-<section class="about-section">
+<section id="about-section">
     <div class="about">
         <div class="about-img-container">
             <img src="img/home.png" class="about-img" alt="">
-            <button class="download-cv-btn">downlaod cv</button>
+            <button class="download-cv-btn">My name is dee</button>
         </div>
-        <p class="about-info">Want to know more abou me?</p>
+        <p class="about-info">Want to know more about-img me?</p>
+    </div>
+</section>
+
+<!--contact-section-->
+<section id="contact-section">
+    <div class="contact">
+        <div class="about-img-container">
+            <img src="/img/telephone.jpg" class="about-img" alt="">
+            <button class="Dial this number to get me">My name is dee</button>
+        </div>
+        <p class="about-info">Feel free to contact me</p>
     </div>
 </section>
 
 
 <!-- skills -->
-<div class="skill-section">
-    <h1 class="heading">skills</h1>
+<div id="skill-section">
+    <h1 class ="heading">skills</h1>
     <div class="skills-container">
         <div class="skill-card">
             <img src="img/html.png" class="skill-img" alt="">
@@ -72,16 +84,16 @@
             <p class="skill-info">I am experienced in structing a website using HTML</p>
         </div>
         <div class="skill-section">
-            <h1 class="heading">skills</h1>
+            
             <div class="skills-container">
                 <div class="skill-card">
                     <img src="img/msql.webp" class="skill-img" alt="">
                     <div class="skill-level">20%</div>
                     <h1 class="skill-name">MSQL</h1>
-                    <p class="skill-info">I am currently learning structuringof differentdatabases</p>
+                    <p class="skill-info">I am currently learning structuring of different databases</p>
                 </div> 
                 <div class="skill-section">
-                    <h1 class="heading">skills</h1>
+                    
                     <div class="skills-container">
                         <div class="skill-card">
                             <img src="img/js.webp" class="skill-img" alt="">
@@ -89,6 +101,15 @@
                             <h1 class="skill-name">JAVASCRIPT</h1>
                             <p class="skill-info">I am skilled in adding funtionality to a website my using JavaScript</p>
                         </div>
+                        <div class="skill-section">
+                            
+                            <div class="skills-container">
+                                <div class="skill-card">
+                                    <img src="img/1200px-Node.js_logo.svg.png" class="skill-img" alt="">
+                                    <div class="skill-level">60</div>
+                                    <h1 class="skill-name">Node.js</h1>
+                                    <p class="skill-info">I am proficient in working with Node.js to run my javscript codes</p>
+                                </div>
 
     </div>
 </div>
@@ -98,14 +119,31 @@
     <h1 class="heading">education and experience</h1>
     <div class="card">
         <div class="card-body">
-            <h1 class="card-title">2000-2002</h1>
-            <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+            <h1 class="card-title">2007-2014</h1>
+            <p class="card-detail">I loved school so much</p>
         </div>
     </div>
-    //+4 more cards
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2015-2018</h1>
+            <p class="card-detail">I loved food </p>
+    </div>
 </div>
 
-<section class="contact-section">
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title">2019-2022</h1>
+        <p class="card-detail">I fell in love </p>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title">2023</h1>
+        <p class="card-detail">Now I am coding </p>
+</div>
+
+
+<section id="contact-section">
     <form class="contact-form">
         <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
         <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
@@ -114,7 +152,7 @@
     </form>
     <!-- map -->
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163742937!2d76.81306771991275!3d28.647279935262464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1639489002410!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/place/Milimani,+Kisumu/@-0.1131677,34.7571588,15z/data=!3m1!4b1!4m6!3m5!1s0x182aa4b99c0f9ce5:0x70595daa5f06e7f3!8m2!3d-0.1132151!4d34.7547433!16s%2Fg%2F11b6gffrf8?entry=ttu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 </section>
 </body>
