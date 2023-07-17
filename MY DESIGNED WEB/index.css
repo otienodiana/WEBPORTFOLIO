@@ -122,7 +122,7 @@ body{
 
 .project-card{
     height: 400px;
-    position: relative;
+    position: fixed;
 }
 
 .project-img{
@@ -136,7 +136,7 @@ body{
 }
 
 .project-content{
-    position: relative;
+    position: fixed;
     padding: 40px;
     color: #fff;
     transition: .5s;
@@ -208,7 +208,7 @@ body{
 }
 
 .about-img-container{
-    position: relative;
+    position: fixed;
 }
 
 .about-info{
@@ -249,7 +249,7 @@ body{
 /* skills */
 
 #skill-section{
-    position: relative;
+    position: fixed;
     margin: 100px 0;
 }
 
